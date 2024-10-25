@@ -1,0 +1,7 @@
+WD: #EXAMPLE /hpc-home/ryanc/DEV/snakemake/Banana/GRED 
+Assembly: #EXAMPLE /ei/.project-scratch/7/72a00ef5-e1cc-40e5-9ff3-f00f0f9f12fe/results/assembly/Verkko/GRED_070824/assembly.fasta
+Name: #EXAMPLE GRED
+Database: #EXAMPLE /ei/public/databases/BUSCO/20230404/lineages/embryophyta_odb10
+Min_length: #EXAMPLE 10000000
+Max_length: #EXAMPLE 30000000
+Reads: #Can be left blank for now 0ct 2024

@@ -1,0 +1,30 @@
+executor: slurm
+jobs: 100
+latency-wait: 30
+default-resources:
+    slurm_partition: "ei-short"
+    mem_mb: 16000
+    cpus_per_task: 1
+    runtime: 45
+    slurm_account: "ei"
+set-resources:
+    busco:
+        slurm_partition: "ei-medium"
+        mem_mb: 200000
+        cpus_per_task: 8
+        runtime: 1440
+    quast:
+        slurm_partition: "ei-medium"
+        mem_mb: 200000
+        cpus_per_task: 8
+        runtime: 1440
+    meryl_db:
+        slurm_partition: "ei-largemem"
+        mem_mb: 600000
+        cpus_per_task: 8
+        runtime: 2880
+    meryl_db:
+        slurm_partition: "ei-largemem"
+        mem_mb: 600000
+        cpus_per_task: 8
+        runtime: 1440
